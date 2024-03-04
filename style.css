@@ -84,34 +84,48 @@ span{
 .cat1{
     width: 220px;
     height: 220px;
-    background-color: #1ece6a;
+    background-color: #F8FFFB;
     text-align: center;
     padding-top: 50px;
+    border-radius: 13px;
+    font-size: 20px;
     
 }
 .cat2{
     width: 220px;
     height: 220px;
-    background-color: orange;
+    background-color: #FFFFFF;
     text-align: center;
     padding-top: 50px;
+    border-radius: 13px;
+    box-shadow: 10px 10px 5px #0000001A;
+    font-size: 20px;
+    
 }
 .cat3{
     width: 220px;
     height: 220px;
-    background-color: #21B573;
+    background-color: #F8FFFB;
     text-align: center;
     padding-top: 50px;
+    border-radius: 13px;
+    font-size: 20px;
+    
 }
 .cat4{
     width: 220px;
     height: 220px;
-    background-color: aqua;
+    background-color: #F8FFFB;
     text-align: center;
     padding-top: 50px;
-   
+    border-radius: 13px;
+    font-size: 20px;
+    
+}
+.cat1, .cat2, .cat3, .cat4 p{
+ font-size: 14px;
 }
 
 .row{
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
