@@ -161,20 +161,31 @@ span{
     margin-bottom: 110px;
     text-align: center;
 }
-.last img{
+.half-width-2 img{
     width: 100px;
-    margin-left: 300px;
+    position: absolute;
+    
 }
-.last p{
+.half-width-2 p{
+    
     width: 400px;
-    height: 40px;
-    margin-left: 400px;
-    display: flex;
+    height: 400px;
+    margin-left: 150px;
 }
-.last #lastt{
-    margin-bottom: 200px;
+.half-width-2{
+    width: 40%;
+   
+}
+.last .half-width-2{
+    margin-bottom: 100px;
 }
 
+#test{
+    text-align: center;
+}
+.taiger, .tag1, .tag2, .tag3{
+    display: flex;
+}
 
 
 
