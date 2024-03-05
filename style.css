@@ -8,15 +8,7 @@ body{
     width: 198px;
     height: 59px;
 }
-.collapse .button {
-   background-color: #21b573;
-   border-radius: 33px;
-   padding: 12px, 28px, 12px, 28px;
-    width: 104px;
-    height: 43px;
-    bottom: 50px;
 
-}
 
 .collapse a{
     margin: 10px;
@@ -46,16 +38,32 @@ body{
 span{
     color: #21b573;
 }
+.button{
+    width: 104px;
+    height: 43px;
+    top: 25px;
+    left: 1201px;
+    border-radius: 33px;
+    padding: 12px, 28px, 12px, 28px;
+    gap: 10px;
+    background-image: radial-gradient(#fc466b, #3f5efb);
+    color: white;
+}
 
-
-
+.collapse p{
+    color: white;
+    font-weight: 600;
+}
 
 .button-2{
-    background-color: #21B573;
-    width: 153px;
+   
+    background-image: radial-gradient(#fc466b, #3f5efb);
+    width: 104px;
+    font-size: 12px;
+    font-weight: 900;
     height: 43px;
     top: 470px;
-    left: 205px;
+    left: 150px;
     border-radius: 33px;
     padding: 12px, 36px, 12px, 36px;
     gap: 10px;
@@ -129,3 +137,46 @@ span{
 .row{
     margin-bottom: 80px;
 }
+
+.card-footer img{
+    width: 24px;
+    margin-left: 14px;
+}
+.card-footer p{
+    font-size: 13px;
+    display: inline;
+    margin-left: 8px;
+}
+#courses{
+    width: 270px;
+    margin: auto;
+}
+.card{
+    padding-top: 15px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 5px #0bd7851a;
+}
+.course h1{
+    margin-bottom: 110px;
+    text-align: center;
+}
+.last img{
+    width: 100px;
+    margin-left: 300px;
+}
+.last p{
+    width: 400px;
+    height: 40px;
+    margin-left: 400px;
+    display: flex;
+}
+.last #lastt{
+    margin-bottom: 200px;
+}
+
+
+
+
+
+
